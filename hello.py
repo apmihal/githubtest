@@ -1,4 +1,9 @@
 def hello(name):
     return "Hello" + name
+
+def user_input():
+    uName = input("What is your name?")
+    return uName
     
-print(hello("Andrew"))
+name = input()
+print(hello(name))
